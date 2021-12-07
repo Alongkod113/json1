@@ -62,6 +62,7 @@
                         line += "<td><b>"+ item.title + "</b><br/>";
                         line += item.body + "</td>";
                         line += "<td> <button onClick='showDetails("+ item.id +");' > link </button> </td>";
+                        line += "<td> <button onClick='showDetails("+ item.id +");' > back </button> </td>";
 
                         line += "</tr>";
                     $("#tblPosts").append(line);
